@@ -1,0 +1,1927 @@
+[
+  {
+    "id": "gimlet",
+    "name": "김렛",
+    "group": "김렛",
+    "base": "진",
+    "abv": 19,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "citrus",
+      "refreshing",
+      "dry"
+    ],
+    "flavor": [
+      "lime"
+    ],
+    "descriptor": [
+      "상큼함",
+      "산뜻함",
+      "깔끔함"
+    ],
+    "recipe": [
+      "진",
+      "라임",
+      "시럽"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/gimlet.jpg"
+  },
+  {
+    "id": "yuzu_gimlet",
+    "name": "유자 김렛",
+    "group": "김렛",
+    "base": "진",
+    "abv": 19,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "citrus",
+      "refreshing",
+      "floral"
+    ],
+    "flavor": [
+      "lime",
+      "yuzu"
+    ],
+    "descriptor": [
+      "상큼함",
+      "산뜻함",
+      "향긋함",
+      "깔끔함"
+    ],
+    "recipe": [
+      "진",
+      "라임",
+      "유자",
+      "시럽"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/yuzu_gimlet.jpg"
+  },
+  {
+    "id": "gimlet_highball",
+    "name": "김렛 하이볼",
+    "group": "김렛",
+    "base": "진",
+    "abv": 12,
+    "alcohol_score": 5,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "citrus",
+      "refreshing"
+    ],
+    "flavor": [
+      "lime"
+    ],
+    "descriptor": [
+      "상큼함",
+      "청량함",
+      "가벼움"
+    ],
+    "recipe": [
+      "진",
+      "라임",
+      "시럽",
+      "탄산"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_gimlet.jpg"
+  },
+  {
+    "id": "french_gimlet",
+    "name": "프렌치 김렛",
+    "group": "김렛",
+    "base": "진",
+    "abv": 20,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "citrus",
+      "floral",
+      "refreshing"
+    ],
+    "flavor": [
+      "lime",
+      "elderflower"
+    ],
+    "descriptor": [
+      "상큼함",
+      "향긋함",
+      "부드러움",
+      "우아함"
+    ],
+    "recipe": [
+      "진",
+      "라임",
+      "엘더플라워"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_gimlet.jpg"
+  },
+  {
+    "id": "martini",
+    "name": "마티니",
+    "group": "마티니",
+    "base": "진",
+    "abv": 29,
+    "alcohol_score": 9,
+    "sweet_to_dry_sour_score": 9,
+    "category": [
+      "strong",
+      "dry",
+      "herbal"
+    ],
+    "flavor": [
+      "herbal",
+      "wine"
+    ],
+    "descriptor": [
+      "드라이함",
+      "깔끔함",
+      "강렬함",
+      "우아함"
+    ],
+    "recipe": [
+      "진",
+      "드라이버무스"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_martini.jpg"
+  },
+  {
+    "id": "vesper",
+    "name": "베스퍼",
+    "group": "마티니",
+    "base": "진",
+    "abv": 28,
+    "alcohol_score": 10,
+    "sweet_to_dry_sour_score": 10,
+    "category": [
+      "strong",
+      "dry",
+      "citrus"
+    ],
+    "flavor": [
+      "lemon",
+      "herbal",
+      "wine"
+    ],
+    "descriptor": [
+      "강렬함",
+      "드라이함",
+      "깔끔함",
+      "우아함"
+    ],
+    "recipe": [
+      "진",
+      "보드카",
+      "리레/버무스"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_martini.jpg"
+  },
+  {
+    "id": "dirty_martini",
+    "name": "더티 마티니",
+    "group": "마티니",
+    "base": "진",
+    "abv": 28,
+    "alcohol_score": 9,
+    "sweet_to_dry_sour_score": 8,
+    "category": [
+      "strong",
+      "dry",
+      "savory"
+    ],
+    "flavor": [
+      "herbal"
+    ],
+    "descriptor": [
+      "드라이함",
+      "묵직함",
+      "깔끔함",
+      "진함"
+    ],
+    "recipe": [
+      "진",
+      "드라이버무스",
+      "올리브브라인"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_martini.jpg"
+  },
+  {
+    "id": "french_martini",
+    "name": "프렌치 마티니",
+    "group": "마티니",
+    "base": "보드카",
+    "abv": 16,
+    "alcohol_score": 6,
+    "sweet_to_dry_sour_score": 4,
+    "category": [
+      "fruity",
+      "sweet"
+    ],
+    "flavor": [
+      "berry",
+      "pineapple"
+    ],
+    "descriptor": [
+      "과일감",
+      "달콤함",
+      "부드러움"
+    ],
+    "recipe": [
+      "보드카",
+      "라즈베리리큐르",
+      "파인애플"
+    ],
+    "vol": "숏드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_martini.jpg"
+  },
+  {
+    "id": "manhattan",
+    "name": "맨해튼",
+    "group": "맨해튼",
+    "base": "위스키",
+    "abv": 28,
+    "alcohol_score": 8,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "strong",
+      "woody",
+      "herbal"
+    ],
+    "flavor": [
+      "oak",
+      "wine",
+      "herbal"
+    ],
+    "descriptor": [
+      "묵직함",
+      "진함",
+      "우아함",
+      "쌉쌀함"
+    ],
+    "recipe": [
+      "버번위스키",
+      "버무스",
+      "비터"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_manhattan.jpg"
+  },
+  {
+    "id": "brooklyn",
+    "name": "브루클린",
+    "group": "맨해튼",
+    "base": "위스키",
+    "abv": 24,
+    "alcohol_score": 8,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "strong",
+      "woody",
+      "bitter"
+    ],
+    "flavor": [
+      "oak",
+      "wine"
+    ],
+    "descriptor": [
+      "쌉쌀함",
+      "묵직함",
+      "복합적",
+      "깔끔함"
+    ],
+    "recipe": [
+      "위스키",
+      "버무스",
+      "마라스키노",
+      "아마로"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_manhattan.jpg"
+  },
+  {
+    "id": "k_manhattan",
+    "name": "K-맨해튼",
+    "group": "맨해튼",
+    "base": "위스키",
+    "abv": 26,
+    "alcohol_score": 8,
+    "sweet_to_dry_sour_score": 4,
+    "category": [
+      "woody",
+      "fruity",
+      "sweet"
+    ],
+    "flavor": [
+      "fruit",
+      "wine",
+      "oak"
+    ],
+    "descriptor": [
+      "과일감",
+      "부드러움",
+      "묵직함",
+      "균형감"
+    ],
+    "recipe": [
+      "버번위스키",
+      "버무스",
+      "매실"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_manhattan.jpg"
+  },
+  {
+    "id": "gin_tonic",
+    "name": "진토닉",
+    "group": "클리너",
+    "base": "진",
+    "abv": 10,
+    "alcohol_score": 4,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "citrus",
+      "refreshing"
+    ],
+    "flavor": [
+      "lemon",
+      "herbal"
+    ],
+    "descriptor": [
+      "청량함",
+      "가벼움",
+      "깔끔함"
+    ],
+    "recipe": [
+      "진",
+      "토닉워터"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": true,
+    "image_path": "data/images/gin_tonic.jpg"
+  },
+  {
+    "id": "cucumber_gin_tonic",
+    "name": "오이 진토닉",
+    "group": "클리너",
+    "base": "진",
+    "abv": 10,
+    "alcohol_score": 4,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "refreshing",
+      "herbal"
+    ],
+    "flavor": [
+      "cucumber",
+      "herbal"
+    ],
+    "descriptor": [
+      "청량함",
+      "산뜻함",
+      "은은함",
+      "깔끔함"
+    ],
+    "recipe": [
+      "진",
+      "토닉",
+      "오이"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": true,
+    "image_path": "data/images/cucumber_gin_tonic.jpg"
+  },
+  {
+    "id": "apple_gin_tonic",
+    "name": "사과 진토닉",
+    "group": "클리너",
+    "base": "진",
+    "abv": 10,
+    "alcohol_score": 4,
+    "sweet_to_dry_sour_score": 4,
+    "category": [
+      "refreshing",
+      "fruity"
+    ],
+    "flavor": [
+      "apple"
+    ],
+    "descriptor": [
+      "청량함",
+      "과일감",
+      "가벼움"
+    ],
+    "recipe": [
+      "진",
+      "토닉",
+      "사과"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": true,
+    "image_path": "data/images/apple_gin_tonic.jpg"
+  },
+  {
+    "id": "gin_fizz",
+    "name": "진피즈",
+    "group": "클리너",
+    "base": "진",
+    "abv": 11,
+    "alcohol_score": 4,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "citrus",
+      "refreshing"
+    ],
+    "flavor": [
+      "lemon"
+    ],
+    "descriptor": [
+      "상큼함",
+      "청량함",
+      "가벼움"
+    ],
+    "recipe": [
+      "진",
+      "레몬",
+      "시럽",
+      "탄산"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": true,
+    "image_path": "data/images/gin_fizz.jpg"
+  },
+  {
+    "id": "elderflower_fizz",
+    "name": "엘더플라워 피즈",
+    "group": "클리너",
+    "base": "진",
+    "abv": 11,
+    "alcohol_score": 4,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "floral",
+      "refreshing"
+    ],
+    "flavor": [
+      "elderflower",
+      "lemon"
+    ],
+    "descriptor": [
+      "향긋함",
+      "청량함",
+      "부드러움"
+    ],
+    "recipe": [
+      "진",
+      "엘더플라워",
+      "레몬",
+      "탄산"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_cleaner.jpg"
+  },
+  {
+    "id": "americano",
+    "name": "아메리카노",
+    "group": "캄파리",
+    "base": "리큐르",
+    "abv": 8,
+    "alcohol_score": 3,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "bitter",
+      "refreshing"
+    ],
+    "flavor": [
+      "orange",
+      "herbal"
+    ],
+    "descriptor": [
+      "쌉쌀함",
+      "청량함",
+      "가벼움"
+    ],
+    "recipe": [
+      "캄파리",
+      "버무스",
+      "탄산"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_campari.jpg"
+  },
+  {
+    "id": "negroni",
+    "name": "네그로니",
+    "group": "캄파리",
+    "base": "진",
+    "abv": 22,
+    "alcohol_score": 8,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "bitter",
+      "strong"
+    ],
+    "flavor": [
+      "orange",
+      "herbal"
+    ],
+    "descriptor": [
+      "쌉쌀함",
+      "강렬함",
+      "묵직함",
+      "우아함"
+    ],
+    "recipe": [
+      "진",
+      "캄파리",
+      "버무스"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_campari.jpg"
+  },
+  {
+    "id": "boulevardier",
+    "name": "불바디에",
+    "group": "캄파리",
+    "base": "위스키",
+    "abv": 26,
+    "alcohol_score": 8,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "bitter",
+      "strong",
+      "woody"
+    ],
+    "flavor": [
+      "orange",
+      "oak"
+    ],
+    "descriptor": [
+      "쌉쌀함",
+      "묵직함",
+      "진함"
+    ],
+    "recipe": [
+      "버번위스키",
+      "캄파리",
+      "버무스"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_campari.jpg"
+  },
+  {
+    "id": "strawberry_negroni",
+    "name": "딸기 네그로니",
+    "group": "캄파리",
+    "base": "진",
+    "abv": 22,
+    "alcohol_score": 8,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "bitter",
+      "fruity"
+    ],
+    "flavor": [
+      "strawberry",
+      "orange"
+    ],
+    "descriptor": [
+      "과일감",
+      "쌉쌀함",
+      "부드러움"
+    ],
+    "recipe": [
+      "진",
+      "캄파리",
+      "딸기"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_campari.jpg"
+  },
+  {
+    "id": "strawberry_negroni_fizz",
+    "name": "딸기 네그로니 피즈",
+    "group": "캄파리",
+    "base": "진",
+    "abv": 14,
+    "alcohol_score": 5,
+    "sweet_to_dry_sour_score": 4,
+    "category": [
+      "bitter",
+      "fruity",
+      "refreshing"
+    ],
+    "flavor": [
+      "strawberry",
+      "orange"
+    ],
+    "descriptor": [
+      "청량함",
+      "과일감",
+      "부드러움"
+    ],
+    "recipe": [
+      "딸기 네그로니",
+      "탄산"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": true,
+    "image_path": "data/images/strawberry_negroni_fizz.jpg"
+  },
+  {
+    "id": "spumoni",
+    "name": "스푸모니",
+    "group": "캄파리",
+    "base": "리큐르",
+    "abv": 4,
+    "alcohol_score": 2,
+    "sweet_to_dry_sour_score": 8,
+    "category": [
+      "bitter",
+      "refreshing",
+      "citrus"
+    ],
+    "flavor": [
+      "grapefruit",
+      "orange"
+    ],
+    "descriptor": [
+      "청량함",
+      "쌉쌀함",
+      "산뜻함"
+    ],
+    "recipe": [
+      "캄파리",
+      "자몽",
+      "토닉"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_campari.jpg"
+  },
+  {
+    "id": "black_russian",
+    "name": "블랙 러시안",
+    "group": "커피",
+    "base": "보드카",
+    "abv": 27,
+    "alcohol_score": 8,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "strong",
+      "sweet"
+    ],
+    "flavor": [
+      "coffee"
+    ],
+    "descriptor": [
+      "달콤함",
+      "진함",
+      "묵직함"
+    ],
+    "recipe": [
+      "보드카",
+      "커피리큐르"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_coffee.jpg"
+  },
+  {
+    "id": "white_russian",
+    "name": "화이트 러시안",
+    "group": "커피",
+    "base": "보드카",
+    "abv": 18,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "creamy",
+      "sweet"
+    ],
+    "flavor": [
+      "coffee",
+      "milk"
+    ],
+    "descriptor": [
+      "부드러움",
+      "크리미함",
+      "달콤함"
+    ],
+    "recipe": [
+      "보드카",
+      "커피리큐르",
+      "크림"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_coffee.jpg"
+  },
+  {
+    "id": "espresso_martini",
+    "name": "에스프레소 마티니",
+    "group": "커피",
+    "base": "보드카",
+    "abv": 17,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "sweet",
+      "bitter"
+    ],
+    "flavor": [
+      "coffee"
+    ],
+    "descriptor": [
+      "쌉쌀함",
+      "달콤함",
+      "진함"
+    ],
+    "recipe": [
+      "보드카",
+      "에스프레소",
+      "커피리큐르"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/espresso_martini.jpg"
+  },
+  {
+    "id": "revolver",
+    "name": "리볼버",
+    "group": "커피",
+    "base": "위스키",
+    "abv": 30,
+    "alcohol_score": 8,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "strong",
+      "woody"
+    ],
+    "flavor": [
+      "coffee",
+      "oak",
+      "orange"
+    ],
+    "descriptor": [
+      "강렬함",
+      "묵직함",
+      "진함"
+    ],
+    "recipe": [
+      "버번위스키",
+      "커피리큐르",
+      "비터"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/revolver.jpg"
+  },
+  {
+    "id": "mojito",
+    "name": "모히토",
+    "group": "티키",
+    "base": "럼",
+    "abv": 10,
+    "alcohol_score": 6,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "citrus",
+      "refreshing",
+      "herbal"
+    ],
+    "flavor": [
+      "lime",
+      "mint"
+    ],
+    "descriptor": [
+      "청량함",
+      "상큼함",
+      "산뜻함"
+    ],
+    "recipe": [
+      "럼",
+      "라임",
+      "민트",
+      "탄산"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_tiki.jpg"
+  },
+  {
+    "id": "mai_tai",
+    "name": "마이타이",
+    "group": "티키",
+    "base": "럼",
+    "abv": 20,
+    "alcohol_score": 8,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "fruity",
+      "tropical"
+    ],
+    "flavor": [
+      "orange",
+      "almond"
+    ],
+    "descriptor": [
+      "과일감",
+      "고소함",
+      "풍부함"
+    ],
+    "recipe": [
+      "럼",
+      "오렌지",
+      "아몬드"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/mai_tai.jpg"
+  },
+  {
+    "id": "saturn",
+    "name": "새턴",
+    "group": "티키",
+    "base": "진",
+    "abv": 18,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "fruity",
+      "citrus"
+    ],
+    "flavor": [
+      "lemon",
+      "passionfruit"
+    ],
+    "descriptor": [
+      "상큼함",
+      "과일감",
+      "산뜻함"
+    ],
+    "recipe": [
+      "진",
+      "레몬",
+      "패션프루트"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/saturn.jpg"
+  },
+  {
+    "id": "pina_colada",
+    "name": "피나콜라다",
+    "group": "티키",
+    "base": "럼",
+    "abv": 11,
+    "alcohol_score": 5,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "sweet",
+      "creamy",
+      "tropical"
+    ],
+    "flavor": [
+      "pineapple",
+      "coconut"
+    ],
+    "descriptor": [
+      "달콤함",
+      "크리미함",
+      "부드러움"
+    ],
+    "recipe": [
+      "럼",
+      "파인애플",
+      "코코넛"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_tiki.jpg"
+  },
+  {
+    "id": "zombie",
+    "name": "좀비",
+    "group": "티키",
+    "base": "럼",
+    "abv": 18,
+    "alcohol_score": 10,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "strong",
+      "fruity"
+    ],
+    "flavor": [
+      "pineapple",
+      "orange"
+    ],
+    "descriptor": [
+      "강렬함",
+      "묵직함",
+      "풍부함"
+    ],
+    "recipe": [
+      "럼",
+      "과일",
+      "리큐르"
+    ],
+    "vol": "롱드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/zombie.jpg"
+  },
+  {
+    "id": "hurricane",
+    "name": "허리케인",
+    "group": "티키",
+    "base": "럼",
+    "abv": 15,
+    "alcohol_score": 6,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "fruity",
+      "sweet"
+    ],
+    "flavor": [
+      "passionfruit",
+      "orange"
+    ],
+    "descriptor": [
+      "과일감",
+      "달콤함",
+      "청량함"
+    ],
+    "recipe": [
+      "럼",
+      "패션프루트",
+      "시럽"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_tiki.jpg"
+  },
+  {
+    "id": "singapore_sling",
+    "name": "싱가폴 슬링",
+    "group": "티키",
+    "base": "진",
+    "abv": 15,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "fruity",
+      "refreshing"
+    ],
+    "flavor": [
+      "cherry",
+      "pineapple"
+    ],
+    "descriptor": [
+      "과일감",
+      "청량함",
+      "산뜻함"
+    ],
+    "recipe": [
+      "진",
+      "체리",
+      "파인애플"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": true,
+    "image_path": "data/images/singapore_sling.jpg"
+  },
+  {
+    "id": "whiskey_sour",
+    "name": "위스키 사워",
+    "group": "크리미",
+    "base": "위스키",
+    "abv": 18,
+    "alcohol_score": 6,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "citrus",
+      "sweet"
+    ],
+    "flavor": [
+      "lemon",
+      "sugar"
+    ],
+    "descriptor": [
+      "상큼함",
+      "부드러움",
+      "균형감"
+    ],
+    "recipe": [
+      "스카치위스키",
+      "레몬",
+      "시럽"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_creamy.jpg"
+  },
+  {
+    "id": "elderflower_sour",
+    "name": "엘더플라워 사워",
+    "group": "크리미",
+    "base": "진",
+    "abv": 17,
+    "alcohol_score": 5,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "floral",
+      "citrus"
+    ],
+    "flavor": [
+      "elderflower",
+      "lemon"
+    ],
+    "descriptor": [
+      "향긋함",
+      "부드러움",
+      "상큼함"
+    ],
+    "recipe": [
+      "진",
+      "엘더플라워",
+      "레몬"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/elderflower_sour.jpg"
+  },
+  {
+    "id": "ramos_gin_fizz",
+    "name": "라모스 진피즈",
+    "group": "크리미",
+    "base": "진",
+    "abv": 12,
+    "alcohol_score": 5,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "creamy",
+      "citrus"
+    ],
+    "flavor": [
+      "lemon",
+      "milk"
+    ],
+    "descriptor": [
+      "크리미함",
+      "부드러움",
+      "청량함"
+    ],
+    "recipe": [
+      "진",
+      "크림",
+      "레몬"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_creamy.jpg"
+  },
+  {
+    "id": "white_lady",
+    "name": "화이트 레이디",
+    "group": "크리미",
+    "base": "진",
+    "abv": 18,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 8,
+    "category": [
+      "citrus",
+      "sweet"
+    ],
+    "flavor": [
+      "lemon",
+      "orange"
+    ],
+    "descriptor": [
+      "상큼함",
+      "부드러움",
+      "우아함"
+    ],
+    "recipe": [
+      "진",
+      "오렌지",
+      "레몬"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/white_lady.jpg"
+  },
+  {
+    "id": "godfather",
+    "name": "갓파더",
+    "group": "맨즈칵테일",
+    "base": "위스키",
+    "abv": 28,
+    "alcohol_score": 9,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "strong",
+      "woody",
+      "sweet"
+    ],
+    "flavor": [
+      "almond"
+    ],
+    "descriptor": [
+      "묵직함",
+      "부드러움",
+      "고소함"
+    ],
+    "recipe": [
+      "스카치위스키",
+      "아마레토"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_mans.jpg"
+  },
+  {
+    "id": "b_and_b",
+    "name": "B&B",
+    "group": "맨즈칵테일",
+    "base": "브랜디",
+    "abv": 36,
+    "alcohol_score": 9,
+    "sweet_to_dry_sour_score": 4,
+    "category": [
+      "strong",
+      "herbal"
+    ],
+    "flavor": [
+      "herbal"
+    ],
+    "descriptor": [
+      "강렬함",
+      "진함",
+      "우아함"
+    ],
+    "recipe": [
+      "브랜디",
+      "베네딕틴"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_mans.jpg"
+  },
+  {
+    "id": "sidecar",
+    "name": "사이드카",
+    "group": "맨즈칵테일",
+    "base": "브랜디",
+    "abv": 23,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "citrus",
+      "strong"
+    ],
+    "flavor": [
+      "lemon",
+      "orange"
+    ],
+    "descriptor": [
+      "상큼함",
+      "강렬함",
+      "우아함"
+    ],
+    "recipe": [
+      "브랜디",
+      "오렌지",
+      "레몬"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/sidecar.jpg"
+  },
+  {
+    "id": "rusty_nail",
+    "name": "러스티 네일",
+    "group": "맨즈칵테일",
+    "base": "위스키",
+    "abv": 31,
+    "alcohol_score": 9,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "strong",
+      "woody"
+    ],
+    "flavor": [
+      "honey",
+      "herbal"
+    ],
+    "descriptor": [
+      "묵직함",
+      "부드러움",
+      "진함"
+    ],
+    "recipe": [
+      "스카치위스키",
+      "드람뷔"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_mans.jpg"
+  },
+  {
+    "id": "_fashionedold",
+    "name": "올드패션드",
+    "group": "맨즈칵테일",
+    "base": "위스키",
+    "abv": 31,
+    "alcohol_score": 9,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "strong",
+      "woody",
+      "bitter"
+    ],
+    "flavor": [
+      "sugar",
+      "orange",
+      "oak"
+    ],
+    "descriptor": [
+      "강렬함",
+      "묵직함",
+      "깔끔함"
+    ],
+    "recipe": [
+      "버번위스키",
+      "설탕",
+      "비터"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/old_fashioned.jpg"
+  },
+  {
+    "id": "daiquiri",
+    "name": "다이키리",
+    "group": "김렛",
+    "base": "럼",
+    "abv": 19,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "citrus",
+      "refreshing",
+      "dry"
+    ],
+    "flavor": [
+      "lime"
+    ],
+    "descriptor": [
+      "상큼함",
+      "산뜻함",
+      "깔끔함",
+      "드라이함"
+    ],
+    "recipe": [
+      "럼",
+      "라임",
+      "시럽"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_gimlet.jpg"
+  },
+  {
+    "id": "southside",
+    "name": "사우스사이드",
+    "group": "김렛",
+    "base": "진",
+    "abv": 16,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "citrus",
+      "refreshing",
+      "herbal"
+    ],
+    "flavor": [
+      "lemon",
+      "mint"
+    ],
+    "descriptor": [
+      "상큼함",
+      "청량함",
+      "산뜻함",
+      "깔끔함"
+    ],
+    "recipe": [
+      "진",
+      "레몬",
+      "민트",
+      "시럽"
+    ],
+    "vol": "숏드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_gimlet.jpg"
+  },
+  {
+    "id": "gibson",
+    "name": "깁슨",
+    "group": "마티니",
+    "base": "진",
+    "abv": 29,
+    "alcohol_score": 9,
+    "sweet_to_dry_sour_score": 8,
+    "category": [
+      "strong",
+      "dry",
+      "savory"
+    ],
+    "flavor": [
+      "herbal"
+    ],
+    "descriptor": [
+      "강렬함",
+      "드라이함",
+      "깔끔함",
+      "우아함"
+    ],
+    "recipe": [
+      "진",
+      "드라이버무스",
+      "칵테일어니언"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_martini.jpg"
+  },
+  {
+    "id": "hanky_panky",
+    "name": "행키팽키",
+    "group": "마티니",
+    "base": "진",
+    "abv": 23,
+    "alcohol_score": 9,
+    "sweet_to_dry_sour_score": 8,
+    "category": [
+      "bitter",
+      "herbal",
+      "strong"
+    ],
+    "flavor": [
+      "herbal",
+      "wine"
+    ],
+    "descriptor": [
+      "쌉쌀함",
+      "강렬함",
+      "묵직함",
+      "복합적"
+    ],
+    "recipe": [
+      "진",
+      "스위트버무스",
+      "페르넷"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_martini.jpg"
+  },
+  {
+    "id": "rob_roy",
+    "name": "롭 로이",
+    "group": "맨해튼",
+    "base": "위스키",
+    "abv": 25,
+    "alcohol_score": 9,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "strong",
+      "woody",
+      "herbal"
+    ],
+    "flavor": [
+      "oak",
+      "wine",
+      "herbal"
+    ],
+    "descriptor": [
+      "묵직함",
+      "진함",
+      "우아함",
+      "쌉쌀함"
+    ],
+    "recipe": [
+      "스카치위스키",
+      "스위트버무스",
+      "비터"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_manhattan.jpg"
+  },
+  {
+    "id": "blood_and_sand",
+    "name": "블러드 앤 샌드",
+    "group": "맨해튼",
+    "base": "위스키",
+    "abv": 15,
+    "alcohol_score": 6,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "fruity",
+      "sweet",
+      "woody"
+    ],
+    "flavor": [
+      "orange",
+      "cherry",
+      "wine"
+    ],
+    "descriptor": [
+      "과일감",
+      "부드러움",
+      "균형감",
+      "풍부함"
+    ],
+    "recipe": [
+      "스카치위스키",
+      "오렌지",
+      "버무스",
+      "체리리큐르"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_manhattan.jpg"
+  },
+  {
+    "id": "moscow_mule",
+    "name": "모스코뮬",
+    "group": "클리너",
+    "base": "보드카",
+    "abv": 11,
+    "alcohol_score": 5,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "citrus",
+      "refreshing",
+      "spicy"
+    ],
+    "flavor": [
+      "lime",
+      "ginger"
+    ],
+    "descriptor": [
+      "청량함",
+      "상큼함",
+      "가벼움",
+      "스파이시함"
+    ],
+    "recipe": [
+      "보드카",
+      "라임",
+      "진저비어"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_cleaner.jpg"
+  },
+  {
+    "id": "sea_breeze",
+    "name": "씨브리즈",
+    "group": "클리너",
+    "base": "보드카",
+    "abv": 9,
+    "alcohol_score": 6,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "citrus",
+      "fruity",
+      "refreshing"
+    ],
+    "flavor": [
+      "grapefruit",
+      "berry"
+    ],
+    "descriptor": [
+      "상큼함",
+      "청량함",
+      "가벼움",
+      "산뜻함"
+    ],
+    "recipe": [
+      "보드카",
+      "크랜베리",
+      "자몽"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_cleaner.jpg"
+  },
+  {
+    "id": "french_75",
+    "name": "프렌치 75",
+    "group": "클리너",
+    "base": "진",
+    "abv": 15,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "citrus",
+      "refreshing",
+      "floral"
+    ],
+    "flavor": [
+      "lemon",
+      "wine"
+    ],
+    "descriptor": [
+      "상큼함",
+      "청량함",
+      "가벼움",
+      "우아함"
+    ],
+    "recipe": [
+      "진",
+      "레몬",
+      "스파클링와인",
+      "시럽"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_cleaner.jpg"
+  },
+  {
+    "id": "dark_and_stormy",
+    "name": "다크 앤 스토미",
+    "group": "티키",
+    "base": "럼",
+    "abv": 9,
+    "alcohol_score": 5,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "spicy",
+      "refreshing"
+    ],
+    "flavor": [
+      "ginger",
+      "lime"
+    ],
+    "descriptor": [
+      "청량함",
+      "스파이시함",
+      "가벼움",
+      "상큼함"
+    ],
+    "recipe": [
+      "다크럼",
+      "진저비어",
+      "라임"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_tiki.jpg"
+  },
+  {
+    "id": "june_bug",
+    "name": "준벅",
+    "group": "티키",
+    "base": "리큐르",
+    "abv": 7,
+    "alcohol_score": 3,
+    "sweet_to_dry_sour_score": 4,
+    "category": [
+      "fruity",
+      "sweet",
+      "refreshing"
+    ],
+    "flavor": [
+      "melon",
+      "pineapple",
+      "coconut"
+    ],
+    "descriptor": [
+      "트로피컬",
+      "달콤함",
+      "가벼움",
+      "과일감"
+    ],
+    "recipe": [
+      "미도리",
+      "코코넛",
+      "파인애플"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_tiki.jpg"
+  },
+  {
+    "id": "pisco_sour",
+    "name": "피스코 사워",
+    "group": "크리미",
+    "base": "리큐르",
+    "abv": 15,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "citrus",
+      "creamy"
+    ],
+    "flavor": [
+      "lemon",
+      "sugar"
+    ],
+    "descriptor": [
+      "상큼함",
+      "부드러움",
+      "크리미함",
+      "균형감"
+    ],
+    "recipe": [
+      "피스코",
+      "레몬",
+      "시럽",
+      "난백"
+    ],
+    "vol": "숏드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_creamy.jpg"
+  },
+  {
+    "id": "clover_club",
+    "name": "클로버 클럽",
+    "group": "크리미",
+    "base": "진",
+    "abv": 14,
+    "alcohol_score": 7,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "floral",
+      "creamy",
+      "fruity"
+    ],
+    "flavor": [
+      "berry",
+      "lemon"
+    ],
+    "descriptor": [
+      "부드러움",
+      "향긋함",
+      "상큼함",
+      "과일감"
+    ],
+    "recipe": [
+      "진",
+      "라즈베리",
+      "레몬",
+      "시럽",
+      "난백"
+    ],
+    "vol": "숏드링크",
+    "is_starter": true,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_creamy.jpg"
+  },
+  {
+    "id": "sazerac",
+    "name": "사제락",
+    "group": "맨즈칵테일",
+    "base": "위스키",
+    "abv": 18,
+    "alcohol_score": 10,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "woody",
+      "spicy",
+      "strong",
+      "dry"
+    ],
+    "flavor": [
+      "anise",
+      "herbal",
+      "oak"
+    ],
+    "descriptor": [
+      "묵직함",
+      "강렬함",
+      "스파이시함",
+      "드라이함"
+    ],
+    "recipe": [
+      "라이위스키",
+      "압생트",
+      "설탕",
+      "비터"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_mans.jpg"
+  },
+  {
+    "id": "penicillin",
+    "name": "페니실린",
+    "group": "맨즈칵테일",
+    "base": "위스키",
+    "abv": 24,
+    "alcohol_score": 8,
+    "sweet_to_dry_sour_score": 5,
+    "category": [
+      "citrus",
+      "spicy",
+      "woody",
+      "strong"
+    ],
+    "flavor": [
+      "lemon",
+      "ginger",
+      "honey",
+      "smoke"
+    ],
+    "descriptor": [
+      "상큼함",
+      "스파이시함",
+      "묵직함",
+      "풍부함"
+    ],
+    "recipe": [
+      "스카치위스키",
+      "레몬",
+      "생강",
+      "꿀",
+      "피티드스카치"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/group_mans.jpg"
+  },
+  {
+    "id": "last_word",
+    "name": "라스트워드",
+    "group": "standalone",
+    "base": "진",
+    "abv": 22,
+    "alcohol_score": 9,
+    "sweet_to_dry_sour_score": 7,
+    "category": [
+      "citrus",
+      "herbal",
+      "strong"
+    ],
+    "flavor": [
+      "lime",
+      "herbal"
+    ],
+    "descriptor": [
+      "상큼함",
+      "복합적",
+      "쌉쌀함",
+      "강렬함"
+    ],
+    "recipe": [
+      "진",
+      "샤르트뢰즈",
+      "마라스키노",
+      "라임"
+    ],
+    "vol": "숏드링크",
+    "is_starter": false,
+    "is_bartender_pick": true,
+    "image_path": "data/images/last_word.jpg"
+  },
+  {
+    "id": "bloody_mary",
+    "name": "블러디 메리",
+    "group": "standalone",
+    "base": "보드카",
+    "abv": 12,
+    "alcohol_score": 5,
+    "sweet_to_dry_sour_score": 6,
+    "category": [
+      "savory",
+      "spicy"
+    ],
+    "flavor": [
+      "tomato",
+      "pepper"
+    ],
+    "descriptor": [
+      "스파이시함",
+      "복합적",
+      "묵직함"
+    ],
+    "recipe": [
+      "보드카",
+      "토마토",
+      "향신료"
+    ],
+    "vol": "롱드링크",
+    "is_starter": false,
+    "is_bartender_pick": false,
+    "image_path": "data/images/bloody_mary.jpg"
+  },
+  {
+    "id": "cassis_frappe",
+    "name": "카시스 프라페",
+    "group": "standalone",
+    "base": "리큐르",
+    "abv": 8,
+    "alcohol_score": 3,
+    "sweet_to_dry_sour_score": 2,
+    "category": [
+      "sweet",
+      "fruity"
+    ],
+    "flavor": [
+      "berry"
+    ],
+    "descriptor": [
+      "달콤함",
+      "가벼움",
+      "과일감"
+    ],
+    "recipe": [
+      "카시스",
+      "얼음"
+    ],
+    "vol": "롱드링크",
+    "is_starter": true,
+    "is_bartender_pick": true,
+    "image_path": "data/images/cassis_frappe.jpg"
+  }
+]
